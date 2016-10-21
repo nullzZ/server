@@ -1,0 +1,27 @@
+syntax = "proto3";
+option java_package = "game.server.protobuf";
+option java_outer_classname = "AnyProto";
+
+message LoginRequest{
+
+}
+
+message LoginResponse{
+
+}
+
+message EnterRequest {
+  int32 mapId = 1;
+}
+message EnterResponse {
+	int32 state = 1;
+}
+
+message MoveRequest {
+  int32 x = 1;
+  int32 y=2;
+}
+
+message MoveResponse {
+  
+}

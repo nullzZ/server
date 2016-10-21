@@ -1,0 +1,55 @@
+2016-10-13 18:09:47 [WARN ] org.springframework.context.support.ClassPathXmlApplicationContext (AbstractApplicationContext.java:549) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'actionManager': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [java.util.List<game.core.net.action.IAction<?, ?>>]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, mappedName=, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+2016-10-13 18:11:06 [WARN ] org.springframework.context.support.ClassPathXmlApplicationContext (AbstractApplicationContext.java:549) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'actionManager': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [java.util.List<game.core.net.action.IAction<?, ?>>]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, mappedName=, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+2016-10-13 18:15:11 [WARN ] org.springframework.context.support.ClassPathXmlApplicationContext (AbstractApplicationContext.java:549) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'actionManager': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [java.util.List<game.core.net.action.IAction<?, ?>>]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, mappedName=, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+2016-10-13 18:16:02 [WARN ] org.springframework.context.support.ClassPathXmlApplicationContext (AbstractApplicationContext.java:549) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'actionManager': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [java.util.List<game.core.net.action.IAction<?, ?>>]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, mappedName=, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+2016-10-13 18:19:44 [WARN ] org.springframework.context.support.ClassPathXmlApplicationContext (AbstractApplicationContext.java:549) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'actionManager': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean found for dependency [java.util.List<game.core.net.action.IAction<?, ?>>]: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, mappedName=, description=, name=, type=class java.lang.Object, authenticationType=CONTAINER, lookup=)}
+2016-10-13 18:33:35 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--Game.Core.A
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.logging.InternalLoggerFactory (InternalLoggerFactory.java:59) - Using Log4J as the default logging framework
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:74) - java.nio.Buffer.address: available
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:82) - sun.misc.Unsafe.theUnsafe: available
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:91) - sun.misc.Unsafe.copyMemory: available
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:152) - java.nio.Bits.unaligned: true
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent0 (PlatformDependent0.java:155) - java.nio.DirectByteBuffer.<init>(long, int): available
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.Cleaner0 (Cleaner0.java:62) - java.nio.ByteBuffer.cleaner(): available
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:924) - Platform: Windows
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1031) - Java version: 7
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1068) - -Dio.netty.noUnsafe: false
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1095) - sun.misc.Unsafe: available
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1170) - -Dio.netty.noJavassist: false
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1183) - Javassist: unavailable
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1184) - You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1202) - -Dio.netty.tmpdir: C:\Users\lijing\AppData\Local\Temp (java.io.tmpdir)
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:1281) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:116) - -Dio.netty.noPreferDirect: false
+2016-10-13 18:33:35 [DEBUG] io.netty.util.internal.PlatformDependent (PlatformDependent.java:152) - io.netty.maxDirectMemory: 1886388224 bytes
+2016-10-13 18:33:35 [DEBUG] org.apache.commons.configuration.PropertiesConfiguration (AbstractFileConfiguration.java:588) - FileName set to core_config.properties
+2016-10-13 18:33:35 [DEBUG] org.apache.commons.configuration.ConfigurationUtils (ConfigurationUtils.java:449) - ConfigurationUtils.locate(): base is null, name is core_config.properties
+2016-10-13 18:33:35 [DEBUG] org.apache.commons.configuration.DefaultFileSystem (DefaultFileSystem.java:281) - Could not locate file core_config.properties at null: no protocol: core_config.properties
+2016-10-13 18:33:35 [DEBUG] org.apache.commons.configuration.ConfigurationUtils (ConfigurationUtils.java:550) - Loading configuration from the context classpath (core_config.properties)
+2016-10-13 18:33:35 [DEBUG] org.apache.commons.configuration.PropertiesConfiguration (AbstractFileConfiguration.java:626) - Base path set to file:///E:/mywork/server/target/classes/core_config.properties
+2016-10-13 18:33:35 [INFO ] game.core.Config (Config.java:24) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-13 18:33:35 [DEBUG] io.netty.channel.MultithreadEventLoopGroup (MultithreadEventLoopGroup.java:43) - -Dio.netty.eventLoopThreads: 8
+2016-10-13 18:33:35 [DEBUG] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:105) - -Dio.netty.noKeySetOptimization: false
+2016-10-13 18:33:35 [DEBUG] io.netty.channel.nio.NioEventLoop (NioEventLoop.java:106) - -Dio.netty.selectorAutoRebuildThreshold: 512
+2016-10-13 18:33:35 [DEBUG] io.netty.channel.DefaultChannelId (DefaultChannelId.java:86) - -Dio.netty.processId: 3952 (auto-detected)
+2016-10-13 18:33:35 [DEBUG] io.netty.util.NetUtil (NetUtil.java:210) - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2016-10-13 18:33:35 [DEBUG] io.netty.util.NetUtil (NetUtil.java:261) - \proc\sys\net\core\somaxconn: 200 (non-existent)
+2016-10-13 18:33:36 [DEBUG] io.netty.channel.DefaultChannelId (DefaultChannelId.java:106) - -Dio.netty.machineId: 24:05:0f:ff:fe:45:9e:40 (auto-detected)
+2016-10-13 18:33:36 [DEBUG] io.netty.util.internal.ThreadLocalRandom (ThreadLocalRandom.java:220) - -Dio.netty.initialSeedUniquifier: 0xfe659b60f883e870
+2016-10-13 18:33:36 [DEBUG] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:106) - -Dio.netty.leakDetection.level: simple
+2016-10-13 18:33:36 [DEBUG] io.netty.util.ResourceLeakDetector (ResourceLeakDetector.java:107) - -Dio.netty.leakDetection.maxRecords: 4
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:107) - -Dio.netty.allocator.numHeapArenas: 8
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:108) - -Dio.netty.allocator.numDirectArenas: 8
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:110) - -Dio.netty.allocator.pageSize: 8192
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:115) - -Dio.netty.allocator.maxOrder: 11
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:119) - -Dio.netty.allocator.chunkSize: 16777216
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:120) - -Dio.netty.allocator.tinyCacheSize: 512
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:121) - -Dio.netty.allocator.smallCacheSize: 256
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:122) - -Dio.netty.allocator.normalCacheSize: 64
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:123) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.PooledByteBufAllocator (PooledByteBufAllocator.java:124) - -Dio.netty.allocator.cacheTrimInterval: 8192
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:80) - -Dio.netty.allocator.type: pooled
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:89) - -Dio.netty.threadLocalDirectBufferSize: 65536
+2016-10-13 18:33:36 [DEBUG] io.netty.buffer.ByteBufUtil (ByteBufUtil.java:92) - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2016-10-13 18:33:36 [INFO ] game.core.net.Server (Server.java:105) - start server---
+2016-10-13 18:33:36 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---

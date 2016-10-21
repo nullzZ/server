@@ -1,0 +1,4 @@
+2016-10-13 18:33:35 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--Game.Core.A
+2016-10-13 18:33:35 [INFO ] game.core.Config (Config.java:24) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-13 18:33:36 [INFO ] game.core.net.Server (Server.java:105) - start server---
+2016-10-13 18:33:36 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---

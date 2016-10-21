@@ -1,0 +1,128 @@
+2016-10-14 14:24:45 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 14:24:45 [INFO ] game.core.Config (Config.java:24) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 14:24:45 [INFO ] game.core.net.Server (Server.java:105) - start server---
+2016-10-14 14:24:45 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---
+2016-10-14 14:24:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x38af0388, L:/127.0.0.1:20000 - R:/127.0.0.1:51565] REGISTERED
+2016-10-14 14:24:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x38af0388, L:/127.0.0.1:20000 - R:/127.0.0.1:51565] ACTIVE
+2016-10-14 14:24:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x38af0388, L:/127.0.0.1:20000 - R:/127.0.0.1:51565] RECEIVED: 14B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0c 00 00 00 01 0a 06 63 65 73 68 69 31       |........ceshi1  |
++--------+-------------------------------------------------+----------------+
+2016-10-14 14:24:54 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:39) - [处理时间]cmd:1|3.4859319ms
+2016-10-14 14:24:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x38af0388, L:/127.0.0.1:20000 - R:/127.0.0.1:51565] WRITE: 2B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 06                                           |..              |
++--------+-------------------------------------------------+----------------+
+2016-10-14 14:24:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x38af0388, L:/127.0.0.1:20000 - R:/127.0.0.1:51565] WRITE: 6B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 01 08 01                               |......          |
++--------+-------------------------------------------------+----------------+
+2016-10-14 14:24:54 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0x38af0388, L:/127.0.0.1:20000 - R:/127.0.0.1:51565] FLUSH
+2016-10-14 14:26:45 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 14:26:45 [INFO ] game.core.Config (Config.java:24) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 14:26:46 [INFO ] game.core.net.Server (Server.java:105) - start server---
+2016-10-14 14:26:46 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---
+2016-10-14 14:26:47 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd04b6d79, L:/127.0.0.1:20000 - R:/127.0.0.1:51685] REGISTERED
+2016-10-14 14:26:47 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd04b6d79, L:/127.0.0.1:20000 - R:/127.0.0.1:51685] ACTIVE
+2016-10-14 14:26:47 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd04b6d79, L:/127.0.0.1:20000 - R:/127.0.0.1:51685] RECEIVED: 14B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 0c 00 00 00 01 0a 06 63 65 73 68 69 31       |........ceshi1  |
++--------+-------------------------------------------------+----------------+
+2016-10-14 14:26:47 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:39) - [处理时间]cmd:1|3.267594ms
+2016-10-14 14:26:47 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd04b6d79, L:/127.0.0.1:20000 - R:/127.0.0.1:51685] WRITE: 2B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 06                                           |..              |
++--------+-------------------------------------------------+----------------+
+2016-10-14 14:26:47 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd04b6d79, L:/127.0.0.1:20000 - R:/127.0.0.1:51685] WRITE: 6B
+         +-------------------------------------------------+
+         |  0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f |
++--------+-------------------------------------------------+----------------+
+|00000000| 00 00 00 01 08 01                               |......          |
++--------+-------------------------------------------------+----------------+
+2016-10-14 14:26:47 [INFO ] io.netty.handler.logging.LoggingHandler (AbstractInternalLogger.java:150) - [id: 0xd04b6d79, L:/127.0.0.1:20000 - R:/127.0.0.1:51685] FLUSH
+2016-10-14 14:36:19 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 14:36:19 [INFO ] game.core.Config (Config.java:24) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 14:36:20 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 14:36:20 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---
+2016-10-14 16:21:36 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 16:21:36 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:21:36 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:21:36 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---
+2016-10-14 16:23:00 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 16:23:00 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:23:01 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:23:01 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---
+2016-10-14 16:23:51 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 16:23:51 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:23:51 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:23:51 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---
+2016-10-14 16:24:02 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 16:24:02 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:24:02 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:24:02 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---
+2016-10-14 16:24:09 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 16:24:09 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:24:09 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:24:09 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---
+2016-10-14 16:24:36 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 16:24:37 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:24:37 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:24:37 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:24:37 [INFO ] game.core.statistics.StatisticsUtil (StatisticsUtil.java:61) - start serverStatistics---
+2016-10-14 16:24:55 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 16:24:56 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:24:56 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:24:56 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:28:45 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1--game.server.A
+2016-10-14 16:28:45 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:28:45 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:28:45 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:42:28 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-14 16:42:28 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:42:28 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:42:28 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:42:44 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-14 16:42:44 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:42:44 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:42:44 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:42:59 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-14 16:42:59 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:42:59 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:42:59 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:43:49 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-14 16:43:49 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:43:49 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:43:49 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:45:13 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-14 16:45:13 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:45:13 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:45:13 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:46:32 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-14 16:46:32 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:46:32 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:46:32 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:47:55 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-14 16:48:03 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:48:03 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:48:03 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:49:10 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-14 16:49:10 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:49:10 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:49:10 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:53:41 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-14 16:53:41 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1000--game.server.action.LoginAction
+2016-10-14 16:53:41 [INFO ] game.server.map.MapManager (MapManager.java:26) - [加载地图]
+2016-10-14 16:53:41 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-14 16:53:42 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-14 16:53:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:44) - [处理时间]cmd:1000|0.089264ms
+2016-10-14 16:53:43 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:44) - [处理时间]cmd:1001|0.32657298ms
