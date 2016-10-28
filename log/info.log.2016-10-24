@@ -1,0 +1,21 @@
+2016-10-24 15:23:57 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-24 15:23:57 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1000--game.server.action.LoginAction
+2016-10-24 15:23:57 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1002--game.server.action.MoveAction
+2016-10-24 15:23:57 [INFO ] game.core.rpg.manager.MapManager (MapManager.java:34) - [加载地图]
+2016-10-24 15:23:58 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-24 15:23:58 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-24 15:24:39 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-24 15:24:39 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1000--game.server.action.LoginAction
+2016-10-24 15:24:39 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1002--game.server.action.MoveAction
+2016-10-24 15:24:39 [INFO ] game.core.rpg.manager.MapManager (MapManager.java:34) - [加载地图]
+2016-10-24 15:24:39 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-24 15:24:39 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-24 15:26:03 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1001--game.server.action.EnterAction
+2016-10-24 15:26:03 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1000--game.server.action.LoginAction
+2016-10-24 15:26:03 [INFO ] game.core.net.manager.ActionManager (ActionManager.java:113) - [加载action注解]cmd:1002--game.server.action.MoveAction
+2016-10-24 15:26:03 [INFO ] game.core.rpg.manager.MapManager (MapManager.java:34) - [加载地图]
+2016-10-24 15:26:03 [INFO ] game.core.Config (Config.java:29) - [加载配置]msgThreadSize:1|msgQueueSize:10000|loginThreadSize:8|loginProssSize:10000
+2016-10-24 15:26:03 [INFO ] game.core.net.Server (Server.java:104) - start server---
+2016-10-24 15:27:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:44) - [处理时间]cmd:1000|0.17044ms
+2016-10-24 15:27:35 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:44) - [处理时间]cmd:1001|0.46559998ms
+2016-10-24 15:27:39 [INFO ] game.core.net.thread.MsgProssThread (MsgProssThread.java:44) - [处理时间]cmd:1002|3992.0876ms

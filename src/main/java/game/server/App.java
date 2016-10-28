@@ -12,10 +12,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Service;
 
 import game.core.net.Server;
-import game.core.net.code.MyEncoder;
-import game.core.net.handle.MyServerHandler;
+import game.core.net.my.MyEncoder;
+import game.core.net.my.MyServerHandler;
 import game.core.quartz.QuartzManager;
 import game.core.rpg.job.RoleRunJob;
+import game.core.rpg.manager.MapEventManager;
 import game.core.rpg.manager.MapManager;
 
 /**
@@ -32,6 +33,7 @@ public class App {
 	@PostConstruct
 	public void init() {
 		MapManager.getInstance().load();
+		MapEventManager.getInstance().init(1);
 		JobDataMap jdm = new JobDataMap();
 		jdm.put("mapId", 1);
 		QuartzManager.addJob("map-1", RoleRunJob.class, new Date(), 1, -1, jdm);
